@@ -6,5 +6,5 @@ spec:
   selector:
     app: argocd-hello
   ports:
-    - port: 8080
-      targetPort: 80
+    - port: 8080 # service 服务监听端口
+      targetPort: 80 # 后端nginx pod 监听端口
