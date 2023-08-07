@@ -1,1 +1,2 @@
 # argocd-hello
+# fuxi
